@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        k8s03:
+          ansible_user: amw
+          ansible_host: 192.168.4.9
